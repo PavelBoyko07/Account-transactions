@@ -145,7 +145,7 @@ def test_file_not_found():
         import builtins
         builtins.print = mock_print
 
-        # Пытаемся открыть несуществующий файл
+        # Пытаемся открыть несуществующий файл1
         try:
             display_last_5_operations('nonexistent.json')
         except FileNotFoundError:
