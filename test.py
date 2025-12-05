@@ -132,7 +132,7 @@ def test_display_output_format(capsys, tmp_path):
 
 
 def test_file_not_found():
-    """Тест обработки 2отсутству1ющего файла"""
+    """Тест обработки 2отсутству1юще2го файла"""
     # Временно заменяем print для теста
     original_print = print
     printed_messages = []
