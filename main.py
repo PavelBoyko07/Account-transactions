@@ -1,6 +1,7 @@
 import json
 from datetime import datetime
-
+import pytest
+from main import mask, display_last_5_operations
 #1234
 def mask(value):
     if value.startswith("Счет"):
